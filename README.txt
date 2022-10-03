@@ -1,4 +1,4 @@
-Libft (42 course) 2021 - 2022
+Philosophers (42 course) 2021 - 2022
 
 Status: Finished
 
