@@ -6,13 +6,13 @@
 /*   By: tosinga <tosinga@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/28 13:29:51 by tosinga           #+#    #+#             */
-/*   Updated: 2022/10/03 17:40:18 by tosinga          ###   ########.fr       */
+/*   Updated: 2022/10/03 20:47:58 by tosinga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/philosophers.h"
 
-int	main2(int argc, char *argv[])
+int	main(int argc, char *argv[])
 {
 	t_program	*program;
 
@@ -24,10 +24,4 @@ int	main2(int argc, char *argv[])
 		start_philosophers(program->philos);
 	free(program);
 	return (0);
-}
-
-int main(int argc, char *argv[])
-{
-    main2(argc, argv);
-    while(1){};
 }
