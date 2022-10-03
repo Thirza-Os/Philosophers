@@ -1,0 +1,5 @@
+philosophers
+*.o
+*.a
+.DS_STORE
+*.out
